@@ -507,7 +507,7 @@
               <svg
                 class="review-form-input-icon"
                 width="18"
-                height="18"
+                height="24"
                 aria-label="person-icon"
               >
                 <use href="./images/icons.svg#icon-person"></use>
@@ -554,12 +554,12 @@
               </svg>
             </div>
           </div>
-          <div class="review-form-field-wrapper">
-            <label class="review-form-label" for="comment">Comment</label>
+          <div class="review-form-field-wrapper review-form-field-wrapper-last">
+            <label class="review-form-label" for="user-comment">Comment</label>
             <textarea
               class="review-form-message"
-              name="comment"
-              id="comment"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
@@ -567,10 +567,11 @@
             <input
               class="review-form-checkbox-input visually-hidden"
               type="checkbox"
-              name="checkbox"
-              id="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
             />
-            <label class="review-form-checkbox-label" for="checkbox"
+            <label class="review-form-checkbox-label" for="user-privacy"
               ><span class="review-form-own-checkbox">
                 <svg
                   class="review-form-checkbox-icon"
