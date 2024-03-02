@@ -495,7 +495,7 @@ p {
   background-color: #31d0aa;
 }
 
-.subscribe-form-field-wrapper {
+.subscribe-container {
   margin-left: 80px;
 }
 
@@ -507,6 +507,11 @@ p {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+}
+
+.subscribe-form-field-wrapper {
+  display: flex;
+  gap: 24px;
 }
 
 .subscribe-form-field-input {
@@ -537,14 +542,17 @@ p {
 .subscribe-form-btn {
   align-items: center;
   justify-content: center;
-  display: inline-flex;
-  width: 165px;
+  display: flex;
+  min-width: 165px;
   height: 40px;
   border-radius: 4px;
   padding: 8px 24px;
   width: 165px;
   height: 40px;
   background: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   border: none;
   color: #fff;
   fill: #fff;
